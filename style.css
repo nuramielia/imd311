@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    padding:10px;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #FDF2E9;
+}
+.logo{
+     width: 110px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+#myDIV {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: image/image1.jpg;
+  color: white;
+  bottom: 0px;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {bottom: 300px;}
+}
+.center {
+  margin: auto;
+  width: 80%;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.content{
+     top: 60%;
+}
+.content h1{
+     font-size: 70px;
+     color: #FDFEFE;
+     background-color: #000000;
+     padding: 25px;
+}
+.content p{
+     font-size: 25px;
+     margin: 50px 0 70px;
+     color: white;
+     padding: 20px;
+
+}
+.content h2{
+     font-size: 50px;
+     color: white;
+     padding: 100px;
+}
+.feature-img{
+     width: 200px;
+}
+.btn {
+  min-width: 10rem;
+  border-radius: 100px;
+}
+.btn-secondary {
+  background: var(--action-primary);
+  color: var(--foreground-primary);
+  padding: 0.5rem 1rem;
+  border: 3px solid var(--foreground-tertiary);
+}
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary:hover { border-color: var(--accent); }
+
+
+
+/*** Container for skill bars ***/
+.container {
+  width: 100%; 
+}
+.copyright {
+  font-size: 100%;
+}
+.footer {
+  background-color: #FDF2E9;
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+.newspaper {
+  column-count: 1;
+  width: 80%;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  font-size: 130%;
+}
+.newspaper2 {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+}
+body {
+            background-image: url('image/background4.jpg'); /* Ganti dengan path/gambar yang sesuai */
+            background-size: cover; /* Untuk menutupi seluruh background */
+            background-position: center; /* Untuk menentukan posisi gambar */
+            background-repeat: no-repeat; /* Agar gambar tidak diulang */
+        }
+
+.gallery__page {
+	padding: 80px 15px 65px;
+}
+
+@media (max-width: 576px) {
+	.gallery__page {
+		padding: 30px 15px 65px;
+	}
+}
+
+.gallery__warp {
+	max-width: 1570px;
+	margin: 0 auto;
+}
+
+.gallery__item {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.gallery__item img {
+	min-width: 100%;
+}
+
+.fr-position-outside {
+	left: 0;
+	top: 0;
+	right: auto;
+	bottom: auto;
+}
+
+.fr-position-text {
+	color: #fff;
+}
+
+.fr-window-skin-fresco.fr-window-ui-outside .fr-close-background,
+.fr-window-skin-fresco.fr-window-ui-outside .fr-close:hover .fr-close-background {
+	background-color: transparent;
+}
+
+.fr-thumbnail-active {
+	border: 2px solid #8DB952;
+}
